@@ -1,12 +1,14 @@
 <template>
-  <div>
-    test
-  </div>
+  <todo-list></todo-list>
 </template>
 
 <script>
-export default {
+import TodoList from "@/components/TodoList.vue";
 
+export default {
+  components: {
+    TodoList,
+  },
 }
 </script>
 
